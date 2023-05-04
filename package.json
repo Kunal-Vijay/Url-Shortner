@@ -4,7 +4,8 @@
   "description": "Url shortner using nodejs express and mongoDB",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start":"node server.js"
   },
   "author": "Kunal Vijay",
   "license": "ISC",
@@ -16,6 +17,6 @@
     "shortid": "^2.2.16"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.22"
   }
 }
